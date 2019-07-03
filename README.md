@@ -12,7 +12,7 @@ docker run --name mongodb -p 27017:27017 -d -t mongo
 docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
 ```
 
-## Sequelize
+## sequelize
 
 para migrar as tabelas
 
@@ -20,8 +20,18 @@ para migrar as tabelas
 yarn sequelize db:migrate
 ```
 
-```js
-```
+# mailtrap
+
+necessita de uma conta no serviço para obter as variáveis de conexão
 
 ```js
+https://mailtrap.io
+```
+
+# sentry
+
+necessita de uma conta no serviço para obter as variáveis de conexão
+
+```js
+https://sentry.io
 ```
